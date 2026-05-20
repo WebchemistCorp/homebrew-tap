@@ -9,20 +9,20 @@ class Operatist < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/WebchemistCorp/operatist/releases/download/v0.1.0/operatist-aarch64-apple-darwin.tar.gz"
-      sha256 "36f60c57f12279fd5b169f712c3b854bd48ba3c0d5ba4a2379e12e7d1bad8c2d"
+      sha256 "260ea23d260f6004f1a9dd1495162b7900b839f74bb393993ab9e1b183f5aba3"
     else
       url "https://github.com/WebchemistCorp/operatist/releases/download/v0.1.0/operatist-x86_64-apple-darwin.tar.gz"
-      sha256 "dec6372d9f5ad231d4beebc8196a1acba93a2aad2cc6180d8a174c344aec48df"
+      sha256 "50e9df26f30906b081951b0ef897032c47328ea3d3bb7e2e4a1a8acdc45f6bd4"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/WebchemistCorp/operatist/releases/download/v0.1.0/operatist-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "860e8235bb746ee8dc30ea853b0ccdf7f148656b434170be5f5e4a00a8a4140d"
+      sha256 "93a1a77805448f170ddae6c04ac9eeb2fefd63d67356f98957a0fd44080add02"
     else
       url "https://github.com/WebchemistCorp/operatist/releases/download/v0.1.0/operatist-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e68e0ef888948056eb3412f75cd958aa5dc71c53039edc8b0e0655cd64ee498f"
+      sha256 "dc64ec7fdea85df69c33f568849a9652603ec83347ce3b365f411d7a14fc7839"
     end
   end
 
